@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic-settings
+structlog
+celery
+redis
+neo4j
+faiss-cpu
+sentence-transformers
+tree-sitter
+pytest
+
