@@ -1,15 +1,6 @@
-# Total Recall
+# Total Recall Backend
 
-A scalable, open-source system to transform multiple code repositories into a unified engineering knowledge graph with semantic search capabilities.
-
-This project builds a developer “second brain” by understanding:
-
-```text
-Code structure (functions, classes, APIs)
-Relationships (calls, imports, dependencies)
-Reusable patterns (retry logic, auth, logging)
-Semantic similarity across repositories
-```
+Cross-repository knowledge graph and semantic code search backend.
 
 ## Phase 1 Implemented: Repo Ingestion
 
