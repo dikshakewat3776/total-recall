@@ -8,5 +8,8 @@ neo4j
 faiss-cpu
 sentence-transformers
 tree-sitter
+tree-sitter-python
+tree-sitter-javascript
+numpy
 pytest
 

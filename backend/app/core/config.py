@@ -14,6 +14,18 @@ class Settings(BaseSettings):
         default="data/repo_metadata.json",
         description="JSON file path where repository sync metadata is stored.",
     )
+    faiss_index_path: str = Field(
+        default="data/faiss/code.index",
+        description="Path where FAISS index file is stored.",
+    )
+    faiss_mapping_path: str = Field(
+        default="data/faiss/code_nodes.json",
+        description="Path where FAISS index to CodeNode mapping is stored.",
+    )
+    embedding_model_name: str = Field(
+        default="all-MiniLM-L6-v2",
+        description="Sentence-transformers model used for semantic embeddings.",
+    )
 
 
 settings = Settings()
